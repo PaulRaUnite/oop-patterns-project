@@ -20,6 +20,9 @@
 - [remove user](#remove-user)
 - [edit role](#edit-role)
 
+## Диаграмма
+![Diagram](new_UC_img.png)
+
 ## Шаблон
 ### Название
 
