@@ -21,7 +21,7 @@
 - [edit role](#edit-role)
 
 ## Диаграмма
-![Diagram](new_UC_img.png)
+![Diagram](new_UC.svg)
 
 ## Шаблон
 ### Название
