@@ -21,7 +21,7 @@
 - [edit role](#edit-role)
 
 ## Диаграмма
-![Diagram](new_UC.svg)
+![Diagram](use_cases.svg)
 
 ## Шаблон
 ### Название
