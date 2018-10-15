@@ -2,10 +2,12 @@
 
 ## Template
 
-![template](template_sequence.svg)
+![template](sequences/template.svg)
 
-[source](template_sequence.uxf)
+[UXF file](sequences/template.uxf)
 
 ## Close issue
 
-...
+![close issue](sequences/close_issue.svg)
+
+[UXF file](sequences/close_issue.uxf)
