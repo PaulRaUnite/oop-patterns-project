@@ -5,7 +5,7 @@
     <id>UMLGeneric</id>
     <coordinates>
       <x>100</x>
-      <y>30</y>
+      <y>0</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -16,7 +16,7 @@
     <id>UMLGeneric</id>
     <coordinates>
       <x>340</x>
-      <y>30</y>
+      <y>0</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -27,7 +27,7 @@
     <id>UMLGeneric</id>
     <coordinates>
       <x>570</x>
-      <y>30</y>
+      <y>0</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -38,7 +38,7 @@
     <id>Relation</id>
     <coordinates>
       <x>140</x>
-      <y>50</y>
+      <y>20</y>
       <w>30</w>
       <h>1250</h>
     </coordinates>
@@ -49,7 +49,7 @@
     <id>Relation</id>
     <coordinates>
       <x>380</x>
-      <y>50</y>
+      <y>20</y>
       <w>30</w>
       <h>1240</h>
     </coordinates>
@@ -61,7 +61,7 @@ layer=0</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>610</x>
-      <y>50</y>
+      <y>20</y>
       <w>30</w>
       <h>1230</h>
     </coordinates>
@@ -72,7 +72,7 @@ layer=0</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>810</x>
-      <y>30</y>
+      <y>0</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -83,7 +83,7 @@ layer=0</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>850</x>
-      <y>50</y>
+      <y>20</y>
       <w>30</w>
       <h>1240</h>
     </coordinates>
@@ -94,7 +94,7 @@ layer=0</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>150</x>
-      <y>90</y>
+      <y>60</y>
       <w>250</w>
       <h>40</h>
     </coordinates>
@@ -106,7 +106,7 @@ show_issues(project_id)</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>140</x>
-      <y>110</y>
+      <y>80</y>
       <w>20</w>
       <h>1150</h>
     </coordinates>
@@ -117,7 +117,7 @@ show_issues(project_id)</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>380</x>
-      <y>110</y>
+      <y>80</y>
       <w>20</w>
       <h>340</h>
     </coordinates>
@@ -128,7 +128,7 @@ show_issues(project_id)</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>610</x>
-      <y>150</y>
+      <y>120</y>
       <w>20</w>
       <h>120</h>
     </coordinates>
@@ -139,7 +139,7 @@ show_issues(project_id)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>390</x>
-      <y>130</y>
+      <y>100</y>
       <w>240</w>
       <h>40</h>
     </coordinates>
@@ -151,7 +151,7 @@ project = get_project(id)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>620</x>
-      <y>190</y>
+      <y>160</y>
       <w>240</w>
       <h>80</h>
     </coordinates>
@@ -163,7 +163,7 @@ project = find_project(id)</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>850</x>
-      <y>310</y>
+      <y>280</y>
       <w>20</w>
       <h>70</h>
     </coordinates>
@@ -174,7 +174,7 @@ project = find_project(id)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>390</x>
-      <y>290</y>
+      <y>260</y>
       <w>480</w>
       <h>40</h>
     </coordinates>
@@ -186,7 +186,7 @@ issues = get_issues()</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>390</x>
-      <y>370</y>
+      <y>340</y>
       <w>170</w>
       <h>80</h>
     </coordinates>
@@ -198,7 +198,7 @@ display(issues)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>150</x>
-      <y>480</y>
+      <y>450</y>
       <w>250</w>
       <h>40</h>
     </coordinates>
@@ -210,7 +210,7 @@ select_issue(id)</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>380</x>
-      <y>500</y>
+      <y>470</y>
       <w>20</w>
       <h>140</h>
     </coordinates>
@@ -221,7 +221,7 @@ select_issue(id)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>390</x>
-      <y>530</y>
+      <y>500</y>
       <w>200</w>
       <h>80</h>
     </coordinates>
@@ -233,7 +233,7 @@ display(issues[id])</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>380</x>
-      <y>670</y>
+      <y>640</y>
       <w>20</w>
       <h>100</h>
     </coordinates>
@@ -244,7 +244,7 @@ display(issues[id])</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>150</x>
-      <y>650</y>
+      <y>620</y>
       <w>250</w>
       <h>40</h>
     </coordinates>
@@ -256,7 +256,7 @@ close_issue</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>390</x>
-      <y>680</y>
+      <y>650</y>
       <w>200</w>
       <h>80</h>
     </coordinates>
@@ -268,7 +268,7 @@ display_close_form</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>380</x>
-      <y>810</y>
+      <y>780</y>
       <w>20</w>
       <h>100</h>
     </coordinates>
@@ -279,7 +279,7 @@ display_close_form</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>150</x>
-      <y>790</y>
+      <y>760</y>
       <w>250</w>
       <h>40</h>
     </coordinates>
@@ -291,7 +291,7 @@ add_info(info)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>390</x>
-      <y>820</y>
+      <y>790</y>
       <w>170</w>
       <h>80</h>
     </coordinates>
@@ -303,7 +303,7 @@ keep_info(info)</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>380</x>
-      <y>940</y>
+      <y>910</y>
       <w>20</w>
       <h>320</h>
     </coordinates>
@@ -314,7 +314,7 @@ keep_info(info)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>150</x>
-      <y>920</y>
+      <y>890</y>
       <w>250</w>
       <h>40</h>
     </coordinates>
@@ -326,7 +326,7 @@ submit_close</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>850</x>
-      <y>970</y>
+      <y>940</y>
       <w>20</w>
       <h>260</h>
     </coordinates>
@@ -337,7 +337,7 @@ submit_close</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>390</x>
-      <y>950</y>
+      <y>920</y>
       <w>480</w>
       <h>40</h>
     </coordinates>
@@ -349,18 +349,18 @@ close_issue(id, info)</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>940</x>
-      <y>930</y>
+      <y>900</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>_:Instance_</panel_attributes>
+    <panel_attributes>_:Issue_</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>980</x>
-      <y>950</y>
+      <y>920</y>
       <w>30</w>
       <h>340</h>
     </coordinates>
@@ -371,7 +371,7 @@ close_issue(id, info)</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>980</x>
-      <y>1010</y>
+      <y>980</y>
       <w>20</w>
       <h>60</h>
     </coordinates>
@@ -382,7 +382,7 @@ close_issue(id, info)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>860</x>
-      <y>990</y>
+      <y>960</y>
       <w>140</w>
       <h>40</h>
     </coordinates>
@@ -394,7 +394,7 @@ close(info)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>860</x>
-      <y>320</y>
+      <y>290</y>
       <w>200</w>
       <h>70</h>
     </coordinates>
@@ -406,7 +406,7 @@ get_active_issues()</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>860</x>
-      <y>1080</y>
+      <y>1050</y>
       <w>240</w>
       <h>80</h>
     </coordinates>
@@ -418,7 +418,7 @@ remove_from_active(id)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>860</x>
-      <y>1150</y>
+      <y>1120</y>
       <w>200</w>
       <h>80</h>
     </coordinates>
@@ -430,7 +430,7 @@ lead = teamlead()</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>390</x>
-      <y>1210</y>
+      <y>1180</y>
       <w>480</w>
       <h>40</h>
     </coordinates>
