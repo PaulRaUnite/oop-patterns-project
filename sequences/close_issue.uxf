@@ -434,8 +434,8 @@ lead = teamlead()</panel_attributes>
       <w>480</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>lt=&lt;-
-async: send_message(lead, message)</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+send_message(lead, message)</panel_attributes>
     <additional_attributes>10.0;20.0;460.0;20.0</additional_attributes>
   </element>
 </diagram>
