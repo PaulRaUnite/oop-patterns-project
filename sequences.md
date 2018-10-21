@@ -29,3 +29,12 @@
 [UXF file](sequences/add_work_log.uxf)
 
 [Precedent](./precedents.md#add-work-log)
+
+## Create report
+
+### Time sheet report
+![create timesheet report](sequences/create_timesheet_report.svg)
+
+[UXF file](sequences/create_timesheet_report.uxf)
+
+[Precedent](./precedents.md#create-report)
