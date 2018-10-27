@@ -5,21 +5,21 @@
 - [add work log](#add-work-log)
 - [create report (time sheet)](#create-report)
 - [plan day](#plan-day)
-- [watch day plan](#watch-day-plan)
+- watch day plan
 - [add milestone](#add-milestone)
-- [edit milestone](#edit-milestone)
+- edit milestone
 - [add issue](#add-issue)
 - [reopen issue](#reopen-issue)
-- [edit issue details](#edit-issue-details)
-- [change assignee](#change-assignee)
+- edit issue details
+- change assignee
 - [create project](#create-project)
-- [edit project](#edit-project)
-- [edit status](#edit-status)
+- edit project
+- edit status
 - [add to archive](#add-to-archive)
-- [find project in archive](#find-project-in-archive)
-- [add user](#add-user)
+- find project in archive
+- add user
 - [remove user](#remove-user)
-- [edit role](#edit-role)
+- edit role
 
 ## Template
 
