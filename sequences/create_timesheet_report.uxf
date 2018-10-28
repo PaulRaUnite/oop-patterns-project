@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.3.0">
-  <zoom_level>9</zoom_level>
+  <zoom_level>6</zoom_level>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>144</x>
-      <y>0</y>
-      <w>90</w>
-      <h>27</h>
+      <x>450</x>
+      <y>414</y>
+      <w>60</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>_:User_</panel_attributes>
     <additional_attributes/>
@@ -15,10 +15,10 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>378</x>
-      <y>0</y>
-      <w>90</w>
-      <h>27</h>
+      <x>606</x>
+      <y>414</y>
+      <w>60</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>_:System_</panel_attributes>
     <additional_attributes/>
@@ -26,10 +26,10 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>603</x>
-      <y>0</y>
-      <w>90</w>
-      <h>27</h>
+      <x>756</x>
+      <y>414</y>
+      <w>60</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>_:Project list_</panel_attributes>
     <additional_attributes/>
@@ -37,10 +37,10 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>963</x>
-      <y>0</y>
-      <w>90</w>
-      <h>27</h>
+      <x>996</x>
+      <y>414</y>
+      <w>60</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>_:Issue_</panel_attributes>
     <additional_attributes/>
@@ -48,54 +48,54 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>180</x>
-      <y>18</y>
-      <w>27</w>
-      <h>1476</h>
+      <x>474</x>
+      <y>426</y>
+      <w>18</w>
+      <h>702</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;1620.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>414</x>
-      <y>18</y>
-      <w>27</w>
-      <h>1476</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;1620.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;1150.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>630</x>
-      <y>18</y>
-      <w>36</w>
-      <h>1476</h>
+      <y>426</y>
+      <w>18</w>
+      <h>702</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>20.0;10.0;10.0;1620.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;1150.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>999</x>
-      <y>18</y>
-      <w>27</w>
-      <h>1476</h>
+      <x>774</x>
+      <y>426</y>
+      <w>24</w>
+      <h>702</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;1620.0</additional_attributes>
+    <additional_attributes>20.0;10.0;10.0;1150.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1020</x>
+      <y>426</y>
+      <w>18</w>
+      <h>702</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;1150.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>180</x>
-      <y>72</y>
-      <w>18</w>
-      <h>1368</h>
+      <x>474</x>
+      <y>462</y>
+      <w>12</w>
+      <h>630</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -103,46 +103,10 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>414</x>
-      <y>99</y>
-      <w>18</w>
-      <h>90</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>189</x>
-      <y>81</y>
-      <w>243</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-create report</panel_attributes>
-    <additional_attributes>250.0;20.0;10.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>423</x>
-      <y>108</y>
-      <w>171</w>
-      <h>72</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-show dialog of 
-report types</panel_attributes>
-    <additional_attributes>10.0;60.0;70.0;60.0;70.0;10.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>1125</x>
-      <y>0</y>
-      <w>90</w>
-      <h>27</h>
+      <x>1104</x>
+      <y>414</y>
+      <w>60</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>_:Work log_</panel_attributes>
     <additional_attributes/>
@@ -150,21 +114,21 @@ report types</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1161</x>
-      <y>18</y>
-      <w>27</w>
-      <h>1476</h>
+      <x>1128</x>
+      <y>426</y>
+      <w>18</w>
+      <h>702</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;1620.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;1150.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>414</x>
-      <y>225</y>
-      <w>18</w>
-      <h>90</h>
+      <x>630</x>
+      <y>462</y>
+      <w>12</w>
+      <h>426</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -172,115 +136,33 @@ report types</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>189</x>
-      <y>207</y>
-      <w>243</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-select type</panel_attributes>
-    <additional_attributes>250.0;20.0;10.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLFrame</id>
-    <coordinates>
-      <x>144</x>
-      <y>45</y>
-      <w>468</w>
-      <h>297</h>
-    </coordinates>
-    <panel_attributes>Choosing report type</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>423</x>
-      <y>234</y>
-      <w>180</w>
-      <h>72</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-show the report
-settings</panel_attributes>
-    <additional_attributes>10.0;60.0;70.0;60.0;70.0;10.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>414</x>
-      <y>387</y>
-      <w>18</w>
-      <h>81</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>189</x>
-      <y>369</y>
-      <w>243</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-check projects and day range</panel_attributes>
-    <additional_attributes>250.0;20.0;10.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>423</x>
-      <y>396</y>
+      <x>480</x>
+      <y>450</y>
       <w>162</w>
-      <h>72</h>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-keep settings</panel_attributes>
-    <additional_attributes>10.0;60.0;70.0;60.0;70.0;10.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>414</x>
-      <y>495</y>
-      <w>18</w>
-      <h>639</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>189</x>
-      <y>477</y>
-      <w>243</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-confirm</panel_attributes>
+create timesheet report</panel_attributes>
     <additional_attributes>250.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>819</x>
-      <y>18</y>
-      <w>27</w>
-      <h>1476</h>
+      <x>900</x>
+      <y>426</y>
+      <w>18</w>
+      <h>702</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;1620.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;1150.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>783</x>
-      <y>0</y>
-      <w>90</w>
-      <h>27</h>
+      <x>876</x>
+      <y>414</y>
+      <w>60</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>_:Project_</panel_attributes>
     <additional_attributes/>
@@ -288,10 +170,10 @@ confirm</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>423</x>
-      <y>495</y>
-      <w>234</w>
-      <h>36</h>
+      <x>636</x>
+      <y>462</y>
+      <w>156</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 get specified projects</panel_attributes>
@@ -300,10 +182,10 @@ get specified projects</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>639</x>
-      <y>513</y>
-      <w>18</w>
-      <h>54</h>
+      <x>780</x>
+      <y>474</y>
+      <w>12</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -311,10 +193,10 @@ get specified projects</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>819</x>
-      <y>603</y>
-      <w>18</w>
-      <h>54</h>
+      <x>900</x>
+      <y>534</y>
+      <w>12</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -322,10 +204,10 @@ get specified projects</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>144</x>
-      <y>576</y>
-      <w>1080</w>
-      <h>441</h>
+      <x>450</x>
+      <y>516</y>
+      <w>720</w>
+      <h>294</h>
     </coordinates>
     <panel_attributes>loop for every project</panel_attributes>
     <additional_attributes/>
@@ -333,10 +215,10 @@ get specified projects</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>423</x>
-      <y>585</y>
-      <w>414</w>
-      <h>36</h>
+      <x>636</x>
+      <y>522</y>
+      <w>276</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 get issues for period</panel_attributes>
@@ -345,10 +227,10 @@ get issues for period</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>999</x>
-      <y>675</y>
-      <w>18</w>
-      <h>54</h>
+      <x>1020</x>
+      <y>582</y>
+      <w>12</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -356,10 +238,10 @@ get issues for period</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>423</x>
-      <y>657</y>
-      <w>594</w>
-      <h>36</h>
+      <x>636</x>
+      <y>570</y>
+      <w>396</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 get work logs for period</panel_attributes>
@@ -368,10 +250,10 @@ get work logs for period</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>369</x>
-      <y>639</y>
-      <w>855</w>
-      <h>324</h>
+      <x>600</x>
+      <y>558</y>
+      <w>570</w>
+      <h>216</h>
     </coordinates>
     <panel_attributes>for every issue</panel_attributes>
     <additional_attributes/>
@@ -379,10 +261,10 @@ get work logs for period</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1161</x>
-      <y>747</y>
-      <w>18</w>
-      <h>54</h>
+      <x>1128</x>
+      <y>630</y>
+      <w>12</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -390,10 +272,10 @@ get work logs for period</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>423</x>
-      <y>729</y>
-      <w>756</w>
-      <h>36</h>
+      <x>636</x>
+      <y>618</y>
+      <w>504</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 get work time</panel_attributes>
@@ -402,10 +284,10 @@ get work time</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>369</x>
-      <y>720</y>
-      <w>855</w>
-      <h>243</h>
+      <x>600</x>
+      <y>612</y>
+      <w>570</w>
+      <h>162</h>
     </coordinates>
     <panel_attributes>for every log</panel_attributes>
     <additional_attributes/>
@@ -413,10 +295,10 @@ get work time</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>423</x>
-      <y>810</y>
-      <w>198</w>
-      <h>135</h>
+      <x>636</x>
+      <y>672</y>
+      <w>132</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 fill table in the form:
@@ -428,10 +310,10 @@ fill table in the form:
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>423</x>
-      <y>1044</y>
-      <w>171</w>
-      <h>72</h>
+      <x>636</x>
+      <y>828</y>
+      <w>114</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 show the table</panel_attributes>
@@ -440,10 +322,10 @@ show the table</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>414</x>
-      <y>1170</y>
-      <w>18</w>
-      <h>99</h>
+      <x>630</x>
+      <y>912</y>
+      <w>12</w>
+      <h>66</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -451,10 +333,10 @@ show the table</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>189</x>
-      <y>1152</y>
-      <w>243</w>
-      <h>36</h>
+      <x>480</x>
+      <y>900</y>
+      <w>162</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 export</panel_attributes>
@@ -463,10 +345,10 @@ export</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>423</x>
-      <y>1188</y>
-      <w>198</w>
-      <h>72</h>
+      <x>636</x>
+      <y>924</y>
+      <w>132</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 show export dialog</panel_attributes>
@@ -475,10 +357,10 @@ show export dialog</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>414</x>
-      <y>1305</y>
-      <w>18</w>
-      <h>99</h>
+      <x>630</x>
+      <y>1002</y>
+      <w>12</w>
+      <h>66</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -486,10 +368,10 @@ show export dialog</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>189</x>
-      <y>1287</y>
-      <w>243</w>
-      <h>36</h>
+      <x>480</x>
+      <y>990</y>
+      <w>162</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 select export format</panel_attributes>
@@ -498,10 +380,10 @@ select export format</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>423</x>
-      <y>1323</y>
-      <w>198</w>
-      <h>72</h>
+      <x>636</x>
+      <y>1014</y>
+      <w>132</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 transform the data</panel_attributes>
@@ -510,10 +392,10 @@ transform the data</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>189</x>
-      <y>1386</y>
-      <w>243</w>
-      <h>36</h>
+      <x>480</x>
+      <y>1056</y>
+      <w>162</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-
 send file</panel_attributes>
@@ -522,10 +404,10 @@ send file</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>144</x>
-      <y>1143</y>
-      <w>540</w>
-      <h>315</h>
+      <x>450</x>
+      <y>894</y>
+      <w>360</w>
+      <h>210</h>
     </coordinates>
     <panel_attributes>optional</panel_attributes>
     <additional_attributes/>
