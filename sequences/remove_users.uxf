@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>341</x>
-      <y>99</y>
+      <x>209</x>
+      <y>66</y>
       <w>110</w>
       <h>33</h>
     </coordinates>
@@ -15,20 +15,20 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>385</x>
-      <y>121</y>
+      <x>253</x>
+      <y>88</y>
       <w>33</w>
-      <h>429</h>
+      <h>440</h>
     </coordinates>
     <panel_attributes>lt=.
 layer=0</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;370.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;380.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>154</x>
-      <y>121</y>
+      <x>88</x>
+      <y>88</y>
       <w>33</w>
       <h>429</h>
     </coordinates>
@@ -38,8 +38,8 @@ layer=0</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>154</x>
-      <y>154</y>
+      <x>88</x>
+      <y>121</y>
       <w>22</w>
       <h>242</h>
     </coordinates>
@@ -49,8 +49,8 @@ layer=0</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>110</x>
-      <y>99</y>
+      <x>44</x>
+      <y>66</y>
       <w>110</w>
       <h>33</h>
     </coordinates>
@@ -60,10 +60,10 @@ layer=0</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>385</x>
-      <y>154</y>
+      <x>253</x>
+      <y>121</y>
       <w>22</w>
-      <h>286</h>
+      <h>374</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -71,20 +71,20 @@ layer=0</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>165</x>
-      <y>143</y>
-      <w>242</w>
+      <x>99</x>
+      <y>110</y>
+      <w>176</w>
       <h>44</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-click "remove users"</panel_attributes>
-    <additional_attributes>200.0;20.0;10.0;20.0</additional_attributes>
+remove users(users)</panel_attributes>
+    <additional_attributes>140.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>561</x>
-      <y>99</y>
+      <x>869</x>
+      <y>66</y>
       <w>110</w>
       <h>33</h>
     </coordinates>
@@ -94,8 +94,54 @@ click "remove users"</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>605</x>
-      <y>121</y>
+      <x>913</x>
+      <y>88</y>
+      <w>33</w>
+      <h>440</h>
+    </coordinates>
+    <panel_attributes>lt=.
+layer=0</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;380.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>264</x>
+      <y>451</y>
+      <w>671</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+remove users from list(users)</panel_attributes>
+    <additional_attributes>590.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>913</x>
+      <y>440</y>
+      <w>22</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>352</x>
+      <y>66</y>
+      <w>110</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>:Projects list</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>396</x>
+      <y>88</y>
       <w>33</w>
       <h>429</h>
     </coordinates>
@@ -106,8 +152,8 @@ layer=0</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>605</x>
-      <y>176</y>
+      <x>396</x>
+      <y>165</y>
       <w>22</w>
       <h>55</h>
     </coordinates>
@@ -117,43 +163,101 @@ layer=0</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>396</x>
-      <y>209</y>
-      <w>176</w>
-      <h>77</h>
+      <x>264</x>
+      <y>154</y>
+      <w>154</w>
+      <h>55</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-show users list</panel_attributes>
-    <additional_attributes>10.0;50.0;50.0;50.0;50.0;10.0;10.0;10.0</additional_attributes>
+get projects 
+by users(users)</panel_attributes>
+    <additional_attributes>120.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>165</x>
-      <y>264</y>
-      <w>242</w>
-      <h>44</h>
+      <x>528</x>
+      <y>88</y>
+      <w>33</w>
+      <h>429</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-select users</panel_attributes>
-    <additional_attributes>200.0;20.0;10.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>396</x>
-      <y>176</y>
-      <w>231</w>
-      <h>44</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-get all users</panel_attributes>
-    <additional_attributes>190.0;20.0;10.0;20.0</additional_attributes>
+    <panel_attributes>lt=.
+layer=0</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;370.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>605</x>
+      <x>484</x>
+      <y>66</y>
+      <w>110</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>:Project</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>528</x>
+      <y>220</y>
+      <w>22</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>264</x>
+      <y>220</y>
+      <w>286</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+remove user(user)</panel_attributes>
+    <additional_attributes>240.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>539</x>
+      <y>231</y>
+      <w>143</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+remove user(user)</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>748</x>
+      <y>66</y>
+      <w>110</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>:User</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>792</x>
+      <y>88</y>
+      <w>33</w>
+      <h>429</h>
+    </coordinates>
+    <panel_attributes>lt=.
+layer=0</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;370.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>792</x>
       <y>374</y>
       <w>22</w>
       <h>55</h>
@@ -164,37 +268,73 @@ get all users</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>396</x>
-      <y>385</y>
-      <w>231</w>
+      <x>539</x>
+      <y>374</y>
+      <w>275</w>
       <h>44</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-remove users(users)</panel_attributes>
-    <additional_attributes>190.0;20.0;10.0;20.0</additional_attributes>
+send notifications</panel_attributes>
+    <additional_attributes>230.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>616</x>
+      <y>66</y>
+      <w>110</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>:Issue</panel_attributes>
+    <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>396</x>
-      <y>297</y>
-      <w>198</w>
-      <h>77</h>
+      <x>660</x>
+      <y>88</y>
+      <w>33</w>
+      <h>429</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-show confirmation</panel_attributes>
-    <additional_attributes>10.0;50.0;50.0;50.0;50.0;10.0;10.0;10.0</additional_attributes>
+    <panel_attributes>lt=.
+layer=0</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;370.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>660</x>
+      <y>220</y>
+      <w>22</w>
+      <h>143</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>165</x>
-      <y>363</y>
-      <w>242</w>
-      <h>44</h>
+      <x>671</x>
+      <y>253</y>
+      <w>176</w>
+      <h>66</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-confirm</panel_attributes>
-    <additional_attributes>200.0;20.0;10.0;20.0</additional_attributes>
+delete work log
+by user</panel_attributes>
+    <additional_attributes>10.0;40.0;50.0;40.0;50.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>671</x>
+      <y>308</y>
+      <w>187</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+delete comment
+by user</panel_attributes>
+    <additional_attributes>10.0;40.0;50.0;40.0;50.0;10.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>
