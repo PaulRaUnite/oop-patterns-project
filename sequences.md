@@ -10,14 +10,14 @@
 - edit milestone
 - [add issue](#add-issue)
 - [reopen issue](#reopen-issue)
-- edit issue details
+- [edit issue details](#edit-issue-details)
 - change assignee
 - [create project](#create-project)
 - edit project
 - edit status
 - [add to archive](#add-to-archive)
-- find project in archive
-- add user
+- [find project in archive](#find-in-archive)
+- [add user](#add-user)
 - [remove user](#remove-user)
 - edit role
 
@@ -94,6 +94,15 @@
 [Precedent](./precedents.md#reopen_issue)
 
 
+## Edit issue details
+
+![edit issue details](sequences/edit_issue_details.svg)
+
+[UXF file](sequences/edit_issue_details.uxf)
+
+[Precedent](./precedents.md#edit-issue-details)
+
+
 ## Create project
 
 ![create project](sequences/create_project.svg)
@@ -110,6 +119,24 @@
 [UXF file](sequences/add_to_archive.uxf)
 
 [Precedent](./precedents.md#add_to_archive)
+
+
+## Find in archive
+
+![find in archive](sequences/find%20in%20archive.svg)
+
+[UXF file](sequences/find%20in%20archive.uxf)
+
+[Precedent](./precedents.md#find-project-in-archive)
+
+
+## Add user
+
+![add user](sequences/add_user.svg)
+
+[UXF file](sequences/add_user.uxf)
+
+[Precedent](./precedents.md#add-user)
 
 
 ## Remove user
