@@ -63,22 +63,10 @@ layer=0</panel_attributes>
       <x>363</x>
       <y>154</y>
       <w>22</w>
-      <h>132</h>
+      <h>308</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>143</x>
-      <y>143</y>
-      <w>242</w>
-      <h>44</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-choose project</panel_attributes>
-    <additional_attributes>200.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -107,7 +95,7 @@ layer=0</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>374</x>
-      <y>253</y>
+      <y>242</y>
       <w>473</w>
       <h>44</h>
     </coordinates>
@@ -129,25 +117,13 @@ archive project(project)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>374</x>
-      <y>165</y>
-      <w>187</w>
-      <h>77</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-show project info</panel_attributes>
-    <additional_attributes>10.0;50.0;50.0;50.0;50.0;10.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
       <x>143</x>
-      <y>220</y>
+      <y>154</y>
       <w>242</w>
       <h>44</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-click "add to archive"</panel_attributes>
+add project to archive(id)</panel_attributes>
     <additional_attributes>200.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
@@ -238,7 +214,7 @@ notify users</panel_attributes>
       <w>110</w>
       <h>33</h>
     </coordinates>
-    <panel_attributes>:Project</panel_attributes>
+    <panel_attributes>project</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -277,26 +253,38 @@ send notification</panel_attributes>
     <additional_attributes>290.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>825</x>
-      <y>407</y>
-      <w>22</w>
-      <h>55</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes/>
-  </element>
-  <element>
     <id>Relation</id>
     <coordinates>
-      <x>517</x>
+      <x>363</x>
       <y>418</y>
-      <w>330</w>
+      <w>176</w>
       <h>44</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 remove project(project)</panel_attributes>
-    <additional_attributes>10.0;20.0;280.0;20.0</additional_attributes>
+    <additional_attributes>130.0;20.0;20.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>374</x>
+      <y>176</y>
+      <w>154</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+get project</panel_attributes>
+    <additional_attributes>120.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>506</x>
+      <y>187</y>
+      <w>22</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
   </element>
 </diagram>
