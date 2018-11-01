@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<diagram program="umlet" version="14.3.0">
-  <zoom_level>10</zoom_level>
+<diagram program="umlet" version="14.2">
+  <zoom_level>9</zoom_level>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>270</x>
-      <y>20</y>
-      <w>100</w>
-      <h>30</h>
+      <x>234</x>
+      <y>0</y>
+      <w>90</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>_:System_</panel_attributes>
     <additional_attributes/>
@@ -15,10 +15,10 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>470</x>
-      <y>20</y>
-      <w>100</w>
-      <h>30</h>
+      <x>414</x>
+      <y>0</y>
+      <w>90</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>_:Project list_</panel_attributes>
     <additional_attributes/>
@@ -26,10 +26,10 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>680</x>
-      <y>20</y>
-      <w>100</w>
-      <h>30</h>
+      <x>603</x>
+      <y>0</y>
+      <w>90</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>project</panel_attributes>
     <additional_attributes/>
@@ -37,10 +37,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>50</x>
-      <y>40</y>
-      <w>30</w>
-      <h>530</h>
+      <x>36</x>
+      <y>18</y>
+      <w>27</w>
+      <h>477</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;510.0</additional_attributes>
@@ -48,10 +48,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>310</x>
-      <y>40</y>
-      <w>30</w>
-      <h>640</h>
+      <x>270</x>
+      <y>18</y>
+      <w>27</w>
+      <h>576</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;620.0</additional_attributes>
@@ -59,10 +59,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>510</x>
-      <y>40</y>
-      <w>30</w>
-      <h>610</h>
+      <x>450</x>
+      <y>18</y>
+      <w>27</w>
+      <h>549</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;590.0</additional_attributes>
@@ -70,21 +70,21 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>720</x>
-      <y>40</y>
-      <w>30</w>
-      <h>600</h>
+      <x>639</x>
+      <y>18</y>
+      <w>27</w>
+      <h>558</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;580.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;600.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>50</x>
-      <y>100</y>
-      <w>20</w>
-      <h>440</h>
+      <x>36</x>
+      <y>72</y>
+      <w>18</w>
+      <h>396</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -92,36 +92,36 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>60</x>
-      <y>110</y>
-      <w>270</w>
-      <h>50</h>
+      <x>45</x>
+      <y>81</y>
+      <w>243</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 click submit
-(issueDetails, projectid)</panel_attributes>
+(data)</panel_attributes>
     <additional_attributes>250.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>320</x>
-      <y>570</y>
-      <w>420</w>
-      <h>50</h>
+      <x>648</x>
+      <y>504</y>
+      <w>450</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-Add notification for
+send notification for
 assigned user</panel_attributes>
-    <additional_attributes>10.0;20.0;400.0;20.0</additional_attributes>
+    <additional_attributes>480.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>10</x>
-      <y>20</y>
-      <w>100</w>
-      <h>30</h>
+      <x>0</x>
+      <y>0</y>
+      <w>90</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>_:User_</panel_attributes>
     <additional_attributes/>
@@ -129,10 +129,10 @@ assigned user</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>510</x>
-      <y>390</y>
-      <w>20</w>
-      <h>50</h>
+      <x>450</x>
+      <y>297</y>
+      <w>18</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -140,23 +140,22 @@ assigned user</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>730</x>
-      <y>510</y>
-      <w>180</w>
-      <h>80</h>
+      <x>648</x>
+      <y>450</y>
+      <w>153</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-createIssue
-(issueDetails)</panel_attributes>
-    <additional_attributes>10.0;60.0;70.0;60.0;70.0;10.0;10.0;10.0</additional_attributes>
+create(data)</panel_attributes>
+    <additional_attributes>150.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>310</x>
-      <y>130</y>
-      <w>20</w>
-      <h>490</h>
+      <x>270</x>
+      <y>81</y>
+      <w>18</w>
+      <h>423</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -164,10 +163,10 @@ createIssue
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>320</x>
-      <y>470</y>
-      <w>420</w>
-      <h>50</h>
+      <x>279</x>
+      <y>369</y>
+      <w>378</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 addIssue
@@ -177,10 +176,10 @@ addIssue
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>720</x>
-      <y>490</y>
-      <w>20</w>
-      <h>130</h>
+      <x>639</x>
+      <y>369</y>
+      <w>18</w>
+      <h>189</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -188,24 +187,22 @@ addIssue
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>320</x>
-      <y>370</y>
-      <w>210</w>
-      <h>60</h>
+      <x>279</x>
+      <y>279</y>
+      <w>189</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-project =
-getProjectById
-(projectId)</panel_attributes>
+get project</panel_attributes>
     <additional_attributes>190.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>320</x>
-      <y>140</y>
-      <w>190</w>
-      <h>80</h>
+      <x>648</x>
+      <y>387</y>
+      <w>162</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 Check entered
@@ -215,23 +212,22 @@ data</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>320</x>
-      <y>210</y>
-      <w>620</w>
-      <h>50</h>
+      <x>279</x>
+      <y>135</y>
+      <w>666</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-user = getUser
-(issueDetatails.assignedUser)</panel_attributes>
-    <additional_attributes>600.0;20.0;10.0;20.0</additional_attributes>
+get choosed users</panel_attributes>
+    <additional_attributes>720.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>880</x>
-      <y>20</y>
-      <w>100</w>
-      <h>30</h>
+      <x>891</x>
+      <y>0</y>
+      <w>90</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>_:Users list_</panel_attributes>
     <additional_attributes/>
@@ -239,10 +235,10 @@ user = getUser
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>920</x>
-      <y>40</y>
-      <w>30</w>
-      <h>590</h>
+      <x>927</x>
+      <y>18</y>
+      <w>27</w>
+      <h>531</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;570.0</additional_attributes>
@@ -250,10 +246,10 @@ user = getUser
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1050</x>
-      <y>20</y>
-      <w>100</w>
-      <h>30</h>
+      <x>1044</x>
+      <y>0</y>
+      <w>90</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>user</panel_attributes>
     <additional_attributes/>
@@ -261,10 +257,10 @@ user = getUser
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1090</x>
-      <y>40</y>
-      <w>30</w>
-      <h>590</h>
+      <x>1080</x>
+      <y>18</y>
+      <w>27</w>
+      <h>531</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;570.0</additional_attributes>
@@ -272,10 +268,10 @@ user = getUser
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>920</x>
-      <y>230</y>
-      <w>20</w>
-      <h>50</h>
+      <x>927</x>
+      <y>153</y>
+      <w>18</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -283,23 +279,66 @@ user = getUser
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>320</x>
-      <y>300</y>
-      <w>790</w>
-      <h>50</h>
+      <x>279</x>
+      <y>216</y>
+      <w>819</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-checkWokingHours
-(issueDetails)</panel_attributes>
-    <additional_attributes>770.0;20.0;10.0;20.0</additional_attributes>
+check woking hours</panel_attributes>
+    <additional_attributes>890.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1090</x>
-      <y>320</y>
-      <w>20</w>
-      <h>50</h>
+      <x>1080</x>
+      <y>234</y>
+      <w>18</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>747</x>
+      <y>0</y>
+      <w>90</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>_:Issue_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>783</x>
+      <y>18</y>
+      <w>27</w>
+      <h>531</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;570.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>783</x>
+      <y>459</y>
+      <w>18</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1080</x>
+      <y>495</y>
+      <w>18</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
