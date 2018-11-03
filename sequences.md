@@ -5,7 +5,7 @@
 - [add work log](#add-work-log)
 - [create report (time sheet)](#create-report)
 - [plan day](#plan-day)
-- watch day plan
+- [watch day plan](#watch-day-plan)
 - [add milestone](#add-milestone)
 - edit milestone
 - [add issue](#add-issue)
@@ -67,6 +67,14 @@
 [UXF file](sequences/plan_day.uxf)
 
 [Precedent](./precedents.md#plan_day)
+
+## Watch day plan
+
+![watch day plan](sequences/watch_day_plan.svg)
+
+[UXF file](sequences/watch_day_plan.uxf)
+
+[Precedent](./precedents.md#watch-day-plan)
 
 ## Add milestone
 
