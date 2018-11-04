@@ -7,19 +7,19 @@
 - [plan day](#plan-day)
 - [watch day plan](#watch-day-plan)
 - [add milestone](#add-milestone)
-- edit milestone
+- [edit milestone](#edit-milestone)
 - [add issue](#add-issue)
 - [reopen issue](#reopen-issue)
 - [edit issue details](#edit-issue-details)
-- change assignee
+- [change assignee](#change-assignee)
 - [create project](#create-project)
-- edit project
-- edit status
+- [edit project](#edit-project)
+- [edit status](#edit-status)
 - [add to archive](#add-to-archive)
 - [find project in archive](#find-in-archive)
 - [add user](#add-user)
 - [remove user](#remove-user)
-- edit role
+- [edit role](#edit-role)
 
 ## Template
 
@@ -84,6 +84,16 @@
 
 [Precedent](./precedents.md#add_milestone)
 
+
+## Edit milestone
+
+![edit milestone](sequences/edit_milestone.svg)
+
+[UXF file](sequences/edit_milestone.uxf)
+
+[Precedent](./precedents.md#edit_milestone)
+
+
 ## Add issue
 
 ![add issue](sequences/add_issue.svg)
@@ -111,6 +121,15 @@
 [Precedent](./precedents.md#edit-issue-details)
 
 
+## Change assignee
+
+![change assignee](sequences/change_assignee.svg)
+
+[UXF file](sequences/change_assignee.uxf)
+
+[Precedent](./precedents.md#change_assignee)
+
+
 ## Create project
 
 ![create project](sequences/create_project.svg)
@@ -118,6 +137,24 @@
 [UXF file](sequences/create_project.uxf)
 
 [Precedent](./precedents.md#create_project)
+
+
+## Edit project
+
+![edit project](sequences/edit_project.svg)
+
+[UXF file](sequences/edit_project.uxf)
+
+[Precedent](./precedents.md#edit_project)
+
+
+## Edit status
+
+![edit status](sequences/edit_status.svg)
+
+[UXF file](sequences/edit_status.uxf)
+
+[Precedent](./precedents.md#edit_status)
 
 
 ## Add to archive
@@ -149,8 +186,17 @@
 
 ## Remove user
 
-![add issue](sequences/remove_users.svg)
+![remove user](sequences/remove_users.svg)
 
 [UXF file](sequences/remove_users.uxf)
 
 [Precedent](./precedents.md#remove_user)
+
+
+## Edit role
+
+![edit role](sequences/edit_role.svg)
+
+[UXF file](sequences/edit_role.uxf)
+
+[Precedent](./precedents.md#edit_role)
