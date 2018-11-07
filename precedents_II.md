@@ -1,24 +1,24 @@
 # Прецеденты
-- [[ ]close issue](#close-issue)
-- [[ ]add comment](#add-comment)
-- [[ ]add work log](#add-work-log)
-- [[ ]create report](#create-report)
-- [[ ]plan day](#plan-day)
-- [[ ]watch day plan](#watch-day-plan)
-- [[ ]add milestone](#add-milestone)
-- [[ ]edit milestone](#edit-milestone)
-- [[X]add issue](#add-issue)
-- [[ ]reopen issue](#reopen-issue)
-- [[ ]edit issue details](#edit-issue-details)
-- [[ ]change assignee](#change-assignee)
-- [[ ]create project](#create-project)
-- [[ ]edit project](#edit-project)
-- [[ ]edit status](#edit-status)
-- [[X]add to archive](#add-to-archive)
-- [[ ]find project in archive](#find-project-in-archive)
-- [[ ]add user](#add-user)
-- [[ ]remove user](#remove-user)
-- [[ ]edit role](#edit-role)
+- [x] [close issue](#close-issue)
+- [ ] [add comment](#add-comment)
+- [ ] [add work log](#add-work-log)
+- [ ] [create report](#create-report)
+- [ ] [plan day](#plan-day)
+- [ ] [watch day plan](#watch-day-plan)
+- [ ] [add milestone](#add-milestone)
+- [ ] [edit milestone](#edit-milestone)
+- [X] [add issue](#add-issue)
+- [ ] [reopen issue](#reopen-issue)
+- [ ] [edit issue details](#edit-issue-details)
+- [ ] [change assignee](#change-assignee)
+- [ ] [create project](#create-project)
+- [ ] [edit project](#edit-project)
+- [ ] [edit status](#edit-status)
+- [X] [add to archive](#add-to-archive)
+- [ ] [find project in archive](#find-project-in-archive)
+- [ ] [add user](#add-user)
+- [ ] [remove user](#remove-user)
+- [ ] [edit role](#edit-role)
 
 ## Диаграмма
 ![Diagram](UC_II.svg)
@@ -61,28 +61,28 @@
 2. Предусловие:
 
     Пользователь авторизован. Открыто главное меню и отображается
-    список с краткой информацией о issues, из тех проектов, 
+    список с краткой информацией о Issues, из тех проектов, 
     к которым у него есть доступ. Пользователь может фильтровать 
-    этот список для поиска issue по любому из полей.
+    этот список для поиска Issue по любому из полей.
 
 3. Типичный поток событий:
 
     | Действие пользователя | Отклик системы |
     |-----------------------|----------------|
-    | Пользователь выбирает issue | Выводится подробная информация |
-    | Пользователь нажимает кнопку «Close Issue» | Выводится диалоговое окно, в котором пользователь может ввести дополнительную информацию
-    | Пользователь заполняет необходимые поля () и нажимает кнопку «Close» | Диалоговой окно закрывается. Система сохраняет изменения полей issue. |
+    | Пользователь выбирает issue | System получает Project по его id из Project list, System получает Issue из Project, System выводит подробную информацию о Issue |
+    | Пользователь нажимает кнопку «Close Issue» | System формирует диалоговое окно, в котором пользователь может ввести дополнительную информацию |
+    | Пользователь заполняет необходимые поля (resolve status, комментарий) и нажимает кнопку «Close» | Диалоговое окно закрывается. System вызывает метод `close_issue(id, info)` у Project. Project вызывает метод `close(info)` у Issue, и рассылает уведомления всем подписанным на эту Issue Employee |
 
 4. Альтернативные потоки событий:
 
     | Действие пользователя | Отклик системы |
     |-----------------------|----------------|
-    | Пользователь выбрал issue над которым работает не он | Кнопка «Close issue» является неактивной |
+    | Пользователь выбрал Issue над которым работает не он | Кнопка «Close issue» является неактивной |
     | Пользователь заполнил одно из полей некорректно | Выводится сообщение о неправильно заполненных полях |
 
 5. Постусловие:
 
-    Внесены изменения полей issue. Team lead'у добавлено уведомление.
+    Внесены изменения полей Issue. Team lead'у и другим подписанным Employee добавлено уведомление 'Issue {issue title} is closed.'.
 
 ### Add comment
 
