@@ -1,24 +1,24 @@
 # Прецеденты
-- [close issue](#close-issue)
-- [add comment](#add-comment)
-- [add work log](#add-work-log)
-- [create report](#create-report)
-- [plan day](#plan-day)
-- [watch day plan](#watch-day-plan)
-- [add milestone](#add-milestone)
-- [edit milestone](#edit-milestone)
-- [add issue](#add-issue)
-- [reopen issue](#reopen-issue)
-- [edit issue details](#edit-issue-details)
-- [change assignee](#change-assignee)
-- [create project](#create-project)
-- [edit project](#edit-project)
-- [edit status](#edit-status)
-- [add to archive](#add-to-archive)
-- [find project in archive](#find-project-in-archive)
-- [add user](#add-user)
-- [remove user](#remove-user)
-- [edit role](#edit-role)
+- [[ ]close issue](#close-issue)
+- [[ ]add comment](#add-comment)
+- [[ ]add work log](#add-work-log)
+- [[ ]create report](#create-report)
+- [[ ]plan day](#plan-day)
+- [[ ]watch day plan](#watch-day-plan)
+- [[ ]add milestone](#add-milestone)
+- [[ ]edit milestone](#edit-milestone)
+- [[X]add issue](#add-issue)
+- [[ ]reopen issue](#reopen-issue)
+- [[ ]edit issue details](#edit-issue-details)
+- [[ ]change assignee](#change-assignee)
+- [[ ]create project](#create-project)
+- [[ ]edit project](#edit-project)
+- [[ ]edit status](#edit-status)
+- [[X]add to archive](#add-to-archive)
+- [[ ]find project in archive](#find-project-in-archive)
+- [[ ]add user](#add-user)
+- [[ ]remove user](#remove-user)
+- [[ ]edit role](#edit-role)
 
 ## Диаграмма
 ![Diagram](UC_II.svg)
@@ -306,24 +306,24 @@
     выполняется сотрудником, тестируется, если надо, и завершается.
 2. Предусловие:
 
-    Пользователь должен быть авторизированным менеджером проекта.
+    Пользователь должен быть авторизированным тимлидом проекта.
 3. Типичный поток событий:
 
     | Действие пользователя | Отклик системы |
     |-----------------------|----------------|
-    | выбрать проект | показать информацию по проекту |
-    | нажать кнопку add issue | показать форму создания issue |
-    | заполнить поля(название, описание, проставить теги, тип), нажать кнопку create | создать issue, отослать уведомление ответственному тимлиду, если тимлида нет, менеджеру |
+    | Пользователь выбирает доступный ему проект | System сохраняет выбранный id. System получает проект у Projects list по id. System дает пользователю подробную информацию |
+    | Пользователь выбирает add issue | System показывает форму создания issue |
+    | Пользователь заполняет информацию, выбирает работников, выбирает create | System вызывает get_users(ids[]). System выполняет проверку check_working_hours() для каждого полученного User-а. System вызывает get_project(project_id) у Projects list. System вызывает add_issue(details) у project. project проверяет данные об issue. project создает issue. project рассылает уведомления тимлиду и работникам на issue |
 
 4. Альтернативные потоки событий:
 
     | Действие пользователя | Отклик системы |
     |-----------------------|----------------|
-    | пользователь ввел недопустимые значения | вывести предупреждение и заблокировать кнопку создания |
+    | Пользователь ввел данные issue, несовсместимые с другими issue | ... Функция add_issue(...) у project вернет ошибку. System выведет пользователю сообщение об ошибке |
 
 5. Постусловие:
     
-    issue создан и добавлен в список всех issue, уведомление ответсвенному отправлено.
+    Создан новый issue и добавлен в список issues выбранного project. Связанные с новым issue сотрудники и тимлид project получили уведомления.
 
 ### Reopen issue
 
