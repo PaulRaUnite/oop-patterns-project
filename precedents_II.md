@@ -501,8 +501,8 @@
 
     | Действие пользователя | Отклик системы |
     |-----------------------|----------------|
-    | Пользователь выбирает проект из списка | System сохраняет выбранный id. System получает проект у Projects list по id. System дает пользователю подробную информацию |
-    | Пользователь выбирает "Add to archive" | System вызывает функцию archive_project(project) у Archive. Archive вызывает у project notify('Project archived'). project рассылает уведомления своим работникам. System инициирует удаление project из Projects list |
+    | Пользователь выбирает проект из списка | System получает project_id из UI. System получает проект у Projects list по id. System дает пользователю подробную информацию |
+    | Пользователь выбирает "Add to archive" | System получает проект у Projects list по id. System вызывает функцию archive_project(project) у Archive. Archive вызывает у project notify('Project archived'). project рассылает уведомления своим работникам. System инициирует удаление project из Projects list |
 
 4.	Альтернативные потоки событий:
 
