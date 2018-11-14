@@ -7,3 +7,4 @@
 
 - [precedents](precedents.md)
 - [sequence diagrams](sequences.md)
+- [method sequence diagrams](method_sequences.md)
