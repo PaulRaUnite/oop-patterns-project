@@ -313,9 +313,9 @@
 
     | Действие пользователя | Отклик системы |
     |-----------------------|----------------|
-    | Пользователь выбирает доступный ему проект | System сохраняет выбранный id. System получает проект у Projects list по id. System дает пользователю подробную информацию |
+    | Пользователь выбирает доступный ему проект | System получает из UI id проекта. System получает проект у Projects list по id. System дает пользователю подробную информацию |
     | Пользователь выбирает add issue | System показывает форму создания issue |
-    | Пользователь заполняет информацию, выбирает работников, выбирает create | System вызывает get_users(ids[]). System выполняет проверку check_working_hours() для каждого полученного User-а. System вызывает get_project(project_id) у Projects list. System вызывает add_issue(details) у project. project проверяет данные об issue. project создает issue. project рассылает уведомления тимлиду и работникам на issue |
+    | Пользователь заполняет информацию, выбирает работников, выбирает create | System получает из UI множество идентификаторов выбранных сотрудников ids[]. System вызывает get_users(ids[]). System выполняет проверку check_working_hours() для каждого полученного User-а. System вызывает get_project(project_id) у Projects list. System вызывает add_issue(details) у project. project проверяет данные об issue. project создает issue. project рассылает уведомления тимлиду и работникам на issue |
 
 4. Альтернативные потоки событий:
 
