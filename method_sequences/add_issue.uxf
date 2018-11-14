@@ -191,7 +191,7 @@ is_issue_compatible(detals)</panel_attributes>
       <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-get choosed users</panel_attributes>
+get_users(usr_ids[])</panel_attributes>
     <additional_attributes>720.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
@@ -258,7 +258,7 @@ get choosed users</panel_attributes>
       <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-check woking hours</panel_attributes>
+check_woking_hours()</panel_attributes>
     <additional_attributes>890.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
