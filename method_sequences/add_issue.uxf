@@ -95,11 +95,10 @@
       <x>648</x>
       <y>423</y>
       <w>450</w>
-      <h>45</h>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-send notification for
-assigned user</panel_attributes>
+notify(notification)</panel_attributes>
     <additional_attributes>480.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
