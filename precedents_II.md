@@ -2,7 +2,7 @@
 - [x] [close issue](#close-issue)
 - [x] [add comment](#add-comment)
 - [x] [add work log](#add-work-log)
-- [ ] [create report](#create-report)
+- [x] [create report](#create-report)
 - [ ] [plan day](#plan-day)
 - [ ] [watch day plan](#watch-day-plan)
 - [x] [add milestone](#add-milestone)
