@@ -132,7 +132,7 @@ notify(notification)</panel_attributes>
       <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-create(details)</panel_attributes>
+create(usrs, details)</panel_attributes>
     <additional_attributes>150.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
@@ -156,7 +156,7 @@ create(details)</panel_attributes>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 add_issue
-(usr_ids[], details)</panel_attributes>
+(usrs, details)</panel_attributes>
     <additional_attributes>200.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
@@ -175,11 +175,11 @@ add_issue
     <coordinates>
       <x>648</x>
       <y>324</y>
-      <w>216</w>
+      <w>243</w>
       <h>54</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-is_issue_compatible(detals)</panel_attributes>
+is_issue_compatible(usrs,detals)</panel_attributes>
     <additional_attributes>10.0;40.0;50.0;40.0;50.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
@@ -191,7 +191,7 @@ is_issue_compatible(detals)</panel_attributes>
       <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-get_users(usr_ids[])</panel_attributes>
+usrs = get_users(usr_ids[])</panel_attributes>
     <additional_attributes>720.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
@@ -338,7 +338,7 @@ add_issue(p_id, usr_ids[], details)</panel_attributes>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 add_issue
-(p_id, usr_ids[], details)</panel_attributes>
+(p_id, usrs, details)</panel_attributes>
     <additional_attributes>190.0;20.0;10.0;20.0</additional_attributes>
   </element>
 </diagram>
