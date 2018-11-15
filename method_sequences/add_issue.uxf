@@ -5,7 +5,7 @@
     <id>UMLGeneric</id>
     <coordinates>
       <x>234</x>
-      <y>63</y>
+      <y>72</y>
       <w>90</w>
       <h>27</h>
     </coordinates>
@@ -16,7 +16,7 @@
     <id>UMLGeneric</id>
     <coordinates>
       <x>414</x>
-      <y>63</y>
+      <y>72</y>
       <w>90</w>
       <h>27</h>
     </coordinates>
@@ -27,7 +27,7 @@
     <id>UMLGeneric</id>
     <coordinates>
       <x>603</x>
-      <y>63</y>
+      <y>72</y>
       <w>90</w>
       <h>27</h>
     </coordinates>
@@ -38,7 +38,7 @@
     <id>Relation</id>
     <coordinates>
       <x>36</x>
-      <y>81</y>
+      <y>90</y>
       <w>27</w>
       <h>477</h>
     </coordinates>
@@ -49,7 +49,7 @@
     <id>Relation</id>
     <coordinates>
       <x>270</x>
-      <y>81</y>
+      <y>90</y>
       <w>27</w>
       <h>576</h>
     </coordinates>
@@ -60,7 +60,7 @@
     <id>Relation</id>
     <coordinates>
       <x>450</x>
-      <y>81</y>
+      <y>90</y>
       <w>27</w>
       <h>549</h>
     </coordinates>
@@ -71,7 +71,7 @@
     <id>Relation</id>
     <coordinates>
       <x>639</x>
-      <y>81</y>
+      <y>90</y>
       <w>27</w>
       <h>549</h>
     </coordinates>
@@ -82,7 +82,7 @@
     <id>UMLGeneric</id>
     <coordinates>
       <x>36</x>
-      <y>135</y>
+      <y>144</y>
       <w>18</w>
       <h>396</h>
     </coordinates>
@@ -93,7 +93,7 @@
     <id>Relation</id>
     <coordinates>
       <x>648</x>
-      <y>423</y>
+      <y>432</y>
       <w>450</w>
       <h>36</h>
     </coordinates>
@@ -105,7 +105,7 @@ notify(notification)</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>0</x>
-      <y>63</y>
+      <y>72</y>
       <w>90</w>
       <h>27</h>
     </coordinates>
@@ -116,7 +116,7 @@ notify(notification)</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>450</x>
-      <y>279</y>
+      <y>288</y>
       <w>18</w>
       <h>45</h>
     </coordinates>
@@ -127,11 +127,12 @@ notify(notification)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>648</x>
-      <y>369</y>
+      <y>315</y>
       <w>153</w>
-      <h>36</h>
+      <h>45</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
+issue = 
 create(usrs, details)</panel_attributes>
     <additional_attributes>150.0;20.0;10.0;20.0</additional_attributes>
   </element>
@@ -139,7 +140,7 @@ create(usrs, details)</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>270</x>
-      <y>144</y>
+      <y>153</y>
       <w>18</w>
       <h>423</h>
     </coordinates>
@@ -150,7 +151,7 @@ create(usrs, details)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>459</x>
-      <y>297</y>
+      <y>306</y>
       <w>198</w>
       <h>45</h>
     </coordinates>
@@ -163,7 +164,7 @@ add_issue
     <id>UMLGeneric</id>
     <coordinates>
       <x>639</x>
-      <y>288</y>
+      <y>297</y>
       <w>18</w>
       <h>189</h>
     </coordinates>
@@ -174,19 +175,19 @@ add_issue
     <id>Relation</id>
     <coordinates>
       <x>648</x>
-      <y>324</y>
-      <w>243</w>
+      <y>360</y>
+      <w>216</w>
       <h>54</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-is_issue_compatible(usrs,detals)</panel_attributes>
+is_issue_compatible(issue)</panel_attributes>
     <additional_attributes>10.0;40.0;50.0;40.0;50.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>279</x>
-      <y>171</y>
+      <y>180</y>
       <w>666</w>
       <h>36</h>
     </coordinates>
@@ -198,7 +199,7 @@ usrs = get_users(usr_ids[])</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>891</x>
-      <y>63</y>
+      <y>72</y>
       <w>90</w>
       <h>27</h>
     </coordinates>
@@ -209,7 +210,7 @@ usrs = get_users(usr_ids[])</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>927</x>
-      <y>81</y>
+      <y>90</y>
       <w>27</w>
       <h>531</h>
     </coordinates>
@@ -220,7 +221,7 @@ usrs = get_users(usr_ids[])</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>1044</x>
-      <y>63</y>
+      <y>72</y>
       <w>90</w>
       <h>27</h>
     </coordinates>
@@ -231,7 +232,7 @@ usrs = get_users(usr_ids[])</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1080</x>
-      <y>81</y>
+      <y>90</y>
       <w>27</w>
       <h>531</h>
     </coordinates>
@@ -242,7 +243,7 @@ usrs = get_users(usr_ids[])</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>927</x>
-      <y>189</y>
+      <y>198</y>
       <w>18</w>
       <h>45</h>
     </coordinates>
@@ -253,7 +254,7 @@ usrs = get_users(usr_ids[])</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>279</x>
-      <y>225</y>
+      <y>234</y>
       <w>819</w>
       <h>36</h>
     </coordinates>
@@ -265,7 +266,7 @@ check_woking_hours()</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>1080</x>
-      <y>243</y>
+      <y>252</y>
       <w>18</w>
       <h>45</h>
     </coordinates>
@@ -276,7 +277,7 @@ check_woking_hours()</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>747</x>
-      <y>63</y>
+      <y>72</y>
       <w>90</w>
       <h>27</h>
     </coordinates>
@@ -287,7 +288,7 @@ check_woking_hours()</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>783</x>
-      <y>81</y>
+      <y>90</y>
       <w>27</w>
       <h>531</h>
     </coordinates>
@@ -298,9 +299,9 @@ check_woking_hours()</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>783</x>
-      <y>378</y>
+      <y>324</y>
       <w>18</w>
-      <h>45</h>
+      <h>36</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -309,7 +310,7 @@ check_woking_hours()</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>1080</x>
-      <y>414</y>
+      <y>423</y>
       <w>18</w>
       <h>45</h>
     </coordinates>
@@ -320,7 +321,7 @@ check_woking_hours()</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>45</x>
-      <y>153</y>
+      <y>162</y>
       <w>243</w>
       <h>36</h>
     </coordinates>
@@ -332,7 +333,7 @@ add_issue(p_id, usr_ids[], details)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>279</x>
-      <y>279</y>
+      <y>288</y>
       <w>189</w>
       <h>45</h>
     </coordinates>
