@@ -1,7 +1,7 @@
 # Method-based sequence diagrams
 
 - [x] [close issue](#close-issue)
-- [ ] [add comment](#add-comment)
+- [x] [add comment](#add-comment)
 - [ ] [add work log](#add-work-log)
 - [x] [create report](#create-report)
 - [ ] [plan day](#plan-day)
@@ -29,6 +29,14 @@
 [UXF file](method_sequences/create_report.uxf)
 
 [Precedent](method_sequences.md#create-report)
+
+## Add comment
+
+![add comment](method_sequences/add_comment.svg)
+
+[UXF file](method_sequences/add_comment.uxf)
+
+[Precedent](method_sequences.md#add_comment)
 
 ## Add issue
 
