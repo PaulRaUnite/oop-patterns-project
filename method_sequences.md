@@ -32,7 +32,7 @@
 
 ## Close issue
 
-![close issue](method_sequences/close_issue.png)
+![close issue](method_sequences/close_issue.svg)
 
 [UXF file](method_sequences/close_issue.uxf)
 
