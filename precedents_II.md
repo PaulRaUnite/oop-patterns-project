@@ -4,7 +4,7 @@
 - [x] [add work log](#add-work-log)
 - [x] [create report](#create-report)
 - [x] [plan day](#plan-day)
-- [ ] [watch day plan](#watch-day-plan)
+- [x] [watch day plan](#watch-day-plan)
 - [x] [add milestone](#add-milestone)
 - [ ] [edit milestone](#edit-milestone)
 - [X] [add issue](#add-issue)
@@ -232,7 +232,7 @@
 
     | Действие пользователя | Отклик системы |
     |-----------------------|----------------|
-    | нажатие на кнопку watch day plan | вывод списка заданий (краткая информация о issue или персональная заметка) |
+    | Пользователь нажимает на кнопку watch day plan | У `System` вызывается метод `show_day_plan`. `System` получает текущего пользователя из `users_list` по его `email`. Затем `System` получает список задач `user_task_list`, из которого выводит краткую информацию о запланированных задачах. |
 
 4. Альтернативные потоки событий:
 
