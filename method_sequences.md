@@ -1,9 +1,25 @@
 # Method-based sequence diagrams
 
-- [create report](#create-report)
-- [add issue](#add-issue)
-- [add issue](#add-to-archive)
-- [close issue](#close-issue)
+- [x] [close issue](#close-issue)
+- [ ] [add comment](#add-comment)
+- [ ] [add work log](#add-work-log)
+- [x] [create report](#create-report)
+- [ ] [plan day](#plan-day)
+- [ ] [watch day plan](#watch-day-plan)
+- [ ] [add milestone](#add-milestone)
+- [ ] [edit milestone](#edit-milestone)
+- [x] [add issue](#add-issue)
+- [ ] [reopen issue](#reopen-issue)
+- [ ] [edit issue details](#edit-issue-details)
+- [ ] [change assignee](#change-assignee)
+- [ ] [create project](#create-project)
+- [ ] [edit project](#edit-project)
+- [ ] [edit status](#edit-status)
+- [x] [add to archive](#add-to-archive)
+- [ ] [find project in archive](#find-project-in-archive)
+- [ ] [add user](#add-user)
+- [ ] [remove user](#remove-user)
+- [ ] [edit role](#edit-role)
 
 
 ## Create report
