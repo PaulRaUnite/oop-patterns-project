@@ -10,7 +10,7 @@
 - [ ] [edit milestone](#edit-milestone)
 - [x] [add issue](#add-issue)
 - [ ] [reopen issue](#reopen-issue)
-- [ ] [edit issue details](#edit-issue-details)
+- [x] [edit issue details](#edit-issue-details)
 - [ ] [change assignee](#change-assignee)
 - [ ] [create project](#create-project)
 - [ ] [edit project](#edit-project)
@@ -61,3 +61,12 @@
 [UXF file](method_sequences/close_issue.uxf)
 
 [Precedent](method_sequences.md#close-issue)
+
+
+## Edit issue details
+
+![edit issue details](method_sequences/edit_issue_details.svg)
+
+[UXF file](method_sequences/edit_issue_details.uxf)
+
+[Precedent](method_sequences.md#edit-issue-details)
