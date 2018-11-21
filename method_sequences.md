@@ -11,7 +11,7 @@
 - [x] [add issue](#add-issue)
 - [ ] [reopen issue](#reopen-issue)
 - [x] [edit issue details](#edit-issue-details)
-- [ ] [change assignee](#change-assignee)
+- [x] [change assignee](#change-assignee)
 - [ ] [create project](#create-project)
 - [ ] [edit project](#edit-project)
 - [ ] [edit status](#edit-status)
@@ -28,7 +28,7 @@
 
 [UXF file](method_sequences/create_report.uxf)
 
-[Precedent](method_sequences.md#create-report)
+[Precedent](precedents_II.md#create-report)
 
 ## Add comment
 
@@ -36,7 +36,7 @@
 
 [UXF file](method_sequences/add_comment.uxf)
 
-[Precedent](method_sequences.md#add_comment)
+[Precedent](precedents_II.md#add-comment)
 
 ## Add issue
 
@@ -44,7 +44,7 @@
 
 [UXF file](method_sequences/add_issue.uxf)
 
-[Precedent](method_sequences.md#add-issue)
+[Precedent](precedents_II.md#add-issue)
 
 ## Add to archive
 
@@ -52,7 +52,7 @@
 
 [UXF file](method_sequences/add_to_archive.uxf)
 
-[Precedent](method_sequences.md#add-to-archive)
+[Precedent](precedents_II.md#add-to-archive)
 
 ## Close issue
 
@@ -60,8 +60,7 @@
 
 [UXF file](method_sequences/close_issue.uxf)
 
-[Precedent](method_sequences.md#close-issue)
-
+[Precedent](precedents_II.md#close-issue)
 
 ## Edit issue details
 
@@ -69,4 +68,12 @@
 
 [UXF file](method_sequences/edit_issue_details.uxf)
 
-[Precedent](method_sequences.md#edit-issue-details)
+[Precedent](precedents_II.md#edit-issue-details)
+
+## Edit issue details
+
+![change assignee](method_sequences/change_assignee.svg)
+
+[UXF file](method_sequences/change_assignee.uxf)
+
+[Precedent](precedents_II.md#change-assignee)
