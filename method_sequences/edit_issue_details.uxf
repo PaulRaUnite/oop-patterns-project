@@ -284,7 +284,7 @@ notify(user, notification)</panel_attributes>
       <w>570</w>
       <h>230</h>
     </coordinates>
-    <panel_attributes>interaction frame</panel_attributes>
+    <panel_attributes>foreach user in subsribers</panel_attributes>
     <additional_attributes/>
   </element>
   <element>

@@ -92,9 +92,9 @@
     /></g
     ><g transform="translate(630,490)"
     ><rect fill="none" x="0.5" width="568.5" height="228.5" y="0.5" clip-path="url(#clipPath2)"
-      /><path fill="none" d="M136.0453 0.5 L136.0453 14.3656 L126.8016 23.6094 L0.5 23.6094" clip-path="url(#clipPath2)"
+      /><path fill="none" d="M196.5707 0.5 L196.5707 14.3656 L187.327 23.6094 L0.5 23.6094" clip-path="url(#clipPath2)"
       /><text x="5" font-size="14px" y="18.1094" clip-path="url(#clipPath2)" font-family="sans-serif" stroke="none" xml:space="preserve"
-      >interaction frame</text
+      >foreach user in subsribers</text
     ></g
     ><g fill="rgb(255,255,255)" fill-opacity="0" transform="translate(1090,640)" stroke-opacity="0" stroke="rgb(255,255,255)"
     ><rect x="0.5" width="18.5" height="58.5" y="0.5" clip-path="url(#clipPath3)" stroke="none"
