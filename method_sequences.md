@@ -2,12 +2,12 @@
 
 - [x] [close issue](#close-issue)
 - [x] [add comment](#add-comment)
-- [ ] [add work log](#add-work-log)
+- [x] [add work log](#add-work-log)
 - [x] [create report](#create-report)
 - [ ] [plan day](#plan-day)
 - [ ] [watch day plan](#watch-day-plan)
-- [ ] [add milestone](#add-milestone)
-- [ ] [edit milestone](#edit-milestone)
+- [x] [add milestone](#add-milestone)
+- [x] [edit milestone](#edit-milestone)
 - [x] [add issue](#add-issue)
 - [ ] [reopen issue](#reopen-issue)
 - [x] [edit issue details](#edit-issue-details)
@@ -37,6 +37,15 @@
 [UXF file](method_sequences/add_comment.uxf)
 
 [Precedent](precedents_II.md#add-comment)
+
+
+## Add work log
+
+![add work log](method_sequences/add_worklog.svg)
+
+[UXF file](method_sequences/add_worklog.uxf)
+
+[Precedent](precedents_II.md#add-work-log)
 
 ## Add issue
 
@@ -70,10 +79,26 @@
 
 [Precedent](precedents_II.md#edit-issue-details)
 
-## Edit issue details
+## Change assignee
 
 ![change assignee](method_sequences/change_assignee.svg)
 
 [UXF file](method_sequences/change_assignee.uxf)
 
 [Precedent](precedents_II.md#change-assignee)
+
+## Add milestone
+
+![add milestone](method_sequences/add_milestone.svg)
+
+[UXF file](method_sequences/add_milestone.uxf)
+
+[Precedent](precedents_II.md#add-milestone)
+
+## Edit milestone
+
+![edit milestone](method_sequences/edit_milestone.svg)
+
+[UXF file](method_sequences/edit_milestone.uxf)
+
+[Precedent](precedents_II.md#edit_milestone)
