@@ -12,14 +12,15 @@
 - [ ] [reopen issue](#reopen-issue)
 - [x] [edit issue details](#edit-issue-details)
 - [x] [change assignee](#change-assignee)
-- [ ] [create project](#create-project)
+- [x] [create project](#create-project)
 - [ ] [edit project](#edit-project)
 - [ ] [edit status](#edit-status)
 - [x] [add to archive](#add-to-archive)
 - [ ] [find project in archive](#find-project-in-archive)
-- [ ] [add user](#add-user)
+- [x] [add user to system](#add-user-to-system)
+- [x] [add user to project](#add-user-to-project)
 - [ ] [remove user](#remove-user)
-- [ ] [edit role](#edit-role)
+- [x] [edit role](#edit-role)
 
 
 ## Create report
@@ -102,3 +103,35 @@
 [UXF file](method_sequences/edit_milestone.uxf)
 
 [Precedent](precedents_II.md#edit_milestone)
+
+## Add user to system
+
+![add user to system](method_sequences/add_user_to_system.svg)
+
+[UXF file](method_sequences/add_user_to_system.uxf)
+
+[Precedent](precedents_II.md#add-user)
+
+## Add user to project
+
+![add user to system](method_sequences/add_user_to_project.svg)
+
+[UXF file](method_sequences/add_user_to_project.uxf)
+
+Precedent does not exist yet.
+
+## Create project
+
+![create project](method_sequences/create_project.svg)
+
+[UXF file](method_sequences/create_project.uxf)
+
+[Precedent](precedents_II.md#create-project)
+
+## Edit role
+
+![edit role](method_sequences/edit_role.svg)
+
+[UXF file](method_sequences/edit_role.uxf)
+
+[Precedent](precedents_II.md#edit-role)
