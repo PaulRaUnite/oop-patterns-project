@@ -1,7 +1,10 @@
 # OOP patterns project documentation
 
 ## Entity-Relation diagram
-![entity relation](er_diagram.svg)
+![entity relation diagram](er_diagram.svg)
+
+## Class diagram
+![class diagram](class_diagramm.svg)
 
 ## Content:
 
