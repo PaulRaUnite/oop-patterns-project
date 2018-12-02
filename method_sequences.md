@@ -4,17 +4,16 @@
 - [x] [add comment](#add-comment)
 - [x] [add work log](#add-work-log)
 - [x] [create report](#create-report)
-- [ ] [plan day](#plan-day)
+- [x] [plan day](#plan-day)
 - [ ] [watch day plan](#watch-day-plan)
 - [x] [add milestone](#add-milestone)
 - [x] [edit milestone](#edit-milestone)
 - [x] [add issue](#add-issue)
-- [ ] [reopen issue](#reopen-issue)
+- [x] [reopen issue](#reopen-issue)
 - [x] [edit issue details](#edit-issue-details)
 - [x] [change assignee](#change-assignee)
 - [x] [create project](#create-project)
-- [ ] [edit project](#edit-project)
-- [ ] [edit status](#edit-status)
+- [x] [edit project](#edit-project)
 - [x] [add to archive](#add-to-archive)
 - [ ] [find project in archive](#find-project-in-archive)
 - [x] [add user to system](#add-user-to-system)
@@ -135,3 +134,29 @@ Precedent does not exist yet.
 [UXF file](method_sequences/edit_role.uxf)
 
 [Precedent](precedents_II.md#edit-role)
+
+
+## Plan day
+
+![plan day](method_sequences/plan_day.svg)
+
+[UXF file](method_sequences/plan_day.uxf)
+
+[Precedent](precedents_II.md#plan-day)
+
+## Edit project
+
+![edit project](method_sequences/edit_project.svg)
+
+[UXF file](method_sequences/edit_project.uxf)
+
+[Precedent](precedents_II.md#edit-project)
+
+
+## Reopen issue
+
+![reopen issue](method_sequences/reopen_issue.svg)
+
+[UXF file](method_sequences/reopen_issue.uxf)
+
+[Precedent](precedents_II.md#reopen-issue)
