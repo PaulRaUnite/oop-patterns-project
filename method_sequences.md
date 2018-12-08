@@ -5,7 +5,7 @@
 - [x] [add work log](#add-work-log)
 - [x] [create report](#create-report)
 - [x] [plan day](#plan-day)
-- [ ] [watch day plan](#watch-day-plan)
+- [x] [watch day plan](#watch-day-plan)
 - [x] [add milestone](#add-milestone)
 - [x] [edit milestone](#edit-milestone)
 - [x] [add issue](#add-issue)
@@ -18,7 +18,7 @@
 - [ ] [find project in archive](#find-project-in-archive)
 - [x] [add user to system](#add-user-to-system)
 - [x] [add user to project](#add-user-to-project)
-- [ ] [remove user](#remove-user)
+- [x] [remove user](#remove-user)
 - [x] [edit role](#edit-role)
 
 
@@ -160,3 +160,19 @@ Precedent does not exist yet.
 [UXF file](method_sequences/reopen_issue.uxf)
 
 [Precedent](precedents_II.md#reopen-issue)
+
+## Watch day plan
+
+![watch day plan](method_sequences/watch_day_plan.svg)
+
+[UXF file](method_sequences/watch_day_plan.uxf)
+
+[Precedent](precedents_II.md#watch-day-plan)
+
+## Remove users
+
+![remove users](method_sequences/remove_users.svg)
+
+[UXF file](method_sequences/remove_users.uxf)
+
+[Precedent](precedents_II.md#remove-users)
