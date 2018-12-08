@@ -15,11 +15,11 @@
 - [x] [create project](#create-project)
 - [x] [edit project](#edit-project)
 - [x] [add to archive](#add-to-archive)
-- [ ] [find project in archive](#find-project-in-archive)
 - [x] [add user to system](#add-user-to-system)
 - [x] [add user to project](#add-user-to-project)
-- [x] [remove user](#remove-user)
+- [x] [remove user](#remove-users)
 - [x] [edit role](#edit-role)
+- [x] [restore project](#restore-project)
 
 
 ## Create report
@@ -175,4 +175,12 @@ Precedent does not exist yet.
 
 [UXF file](method_sequences/remove_users.uxf)
 
-[Precedent](precedents_II.md#remove-users)
+[Precedent](precedents_II.md#remove-user)
+
+## Restore project
+
+![restore project](method_sequences/restore_project.svg)
+
+[UXF file](method_sequences/restore_project.uxf)
+
+[Precedent (not exist)](precedents_II.md#restore-project)
