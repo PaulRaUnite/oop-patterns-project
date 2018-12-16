@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<diagram program="umlet" version="14.2">
+<diagram program="umlet" version="14.3.0">
   <zoom_level>7</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>42</x>
-      <y>28</y>
+      <x>0</x>
+      <y>0</y>
       <w>280</w>
       <h>350</h>
     </coordinates>
@@ -45,8 +45,8 @@ System
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>644</x>
-      <y>441</y>
+      <x>602</x>
+      <y>413</y>
       <w>147</w>
       <h>77</h>
     </coordinates>
@@ -61,8 +61,8 @@ Remaining
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>749</x>
-      <y>539</y>
+      <x>707</x>
+      <y>511</y>
       <w>224</w>
       <h>70</h>
     </coordinates>
@@ -77,8 +77,8 @@ DateAdded
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>56</x>
-      <y>392</y>
+      <x>14</x>
+      <y>364</y>
       <w>252</w>
       <h>231</h>
     </coordinates>
@@ -107,8 +107,8 @@ Status
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>364</x>
-      <y>301</y>
+      <x>322</x>
+      <y>273</y>
       <w>238</w>
       <h>217</h>
     </coordinates>
@@ -116,7 +116,6 @@ Status
 -
 DateCreated
 DateUpdated
-Status
 Tags
 Description
 -
@@ -137,8 +136,8 @@ Description
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>770</x>
-      <y>147</y>
+      <x>728</x>
+      <y>119</y>
       <w>168</w>
       <h>84</h>
     </coordinates>
@@ -152,8 +151,8 @@ Description
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>700</x>
-      <y>259</y>
+      <x>658</x>
+      <y>231</y>
       <w>280</w>
       <h>147</h>
     </coordinates>
@@ -174,8 +173,8 @@ Phone
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>595</x>
-      <y>49</y>
+      <x>553</x>
+      <y>21</y>
       <w>119</w>
       <h>238</h>
     </coordinates>
@@ -185,8 +184,8 @@ Phone
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>595</x>
-      <y>462</y>
+      <x>553</x>
+      <y>434</y>
       <w>63</w>
       <h>21</h>
     </coordinates>
@@ -196,8 +195,8 @@ Phone
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>588</x>
-      <y>511</y>
+      <x>546</x>
+      <y>483</y>
       <w>175</w>
       <h>91</h>
     </coordinates>
@@ -207,8 +206,8 @@ Phone
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>301</x>
-      <y>588</y>
+      <x>259</x>
+      <y>560</y>
       <w>84</w>
       <h>28</h>
     </coordinates>
@@ -219,8 +218,8 @@ m2=0..n</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>301</x>
-      <y>497</y>
+      <x>259</x>
+      <y>469</y>
       <w>77</w>
       <h>21</h>
     </coordinates>
@@ -230,8 +229,8 @@ m2=0..n</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>532</x>
-      <y>560</y>
+      <x>490</x>
+      <y>532</y>
       <w>140</w>
       <h>77</h>
     </coordinates>
@@ -246,8 +245,8 @@ Description
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>301</x>
-      <y>532</y>
+      <x>259</x>
+      <y>504</y>
       <w>252</w>
       <h>42</h>
     </coordinates>
@@ -257,9 +256,9 @@ Description
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>546</x>
-      <y>511</y>
-      <w>35</w>
+      <x>504</x>
+      <y>483</y>
+      <w>42</w>
       <h>63</h>
     </coordinates>
     <panel_attributes>lt=-
@@ -270,8 +269,8 @@ m2=0..n</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>42</x>
-      <y>371</y>
+      <x>0</x>
+      <y>343</y>
       <w>343</w>
       <h>280</h>
     </coordinates>
@@ -282,9 +281,9 @@ m1=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>847</x>
-      <y>224</y>
-      <w>21</w>
+      <x>805</x>
+      <y>196</y>
+      <w>28</w>
       <h>49</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
@@ -294,8 +293,8 @@ m2=1</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>679</x>
-      <y>28</y>
+      <x>637</x>
+      <y>0</y>
       <w>161</w>
       <h>98</h>
     </coordinates>
@@ -312,8 +311,8 @@ Date
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>595</x>
-      <y>385</y>
+      <x>553</x>
+      <y>357</y>
       <w>119</w>
       <h>28</h>
     </coordinates>
@@ -325,8 +324,8 @@ m2=0..n</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>833</x>
-      <y>56</y>
+      <x>791</x>
+      <y>28</y>
       <w>35</w>
       <h>105</h>
     </coordinates>
@@ -336,8 +335,8 @@ m2=0..n</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>595</x>
-      <y>119</y>
+      <x>553</x>
+      <y>91</y>
       <w>112</w>
       <h>224</h>
     </coordinates>
@@ -347,9 +346,9 @@ m2=0..n</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>819</x>
-      <y>399</y>
-      <w>63</w>
+      <x>777</x>
+      <y>371</y>
+      <w>70</w>
       <h>154</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
@@ -361,8 +360,8 @@ users</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>301</x>
-      <y>280</y>
+      <x>259</x>
+      <y>252</y>
       <w>413</w>
       <h>217</h>
     </coordinates>
@@ -374,8 +373,8 @@ m2=0..n</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>868</x>
-      <y>28</y>
+      <x>826</x>
+      <y>0</y>
       <w>119</w>
       <h>63</h>
     </coordinates>
@@ -388,8 +387,8 @@ Description
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>959</x>
-      <y>84</y>
+      <x>917</x>
+      <y>56</y>
       <w>21</w>
       <h>189</h>
     </coordinates>
@@ -399,8 +398,8 @@ Description
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>714</x>
-      <y>511</y>
+      <x>672</x>
+      <y>483</y>
       <w>49</w>
       <h>70</h>
     </coordinates>
@@ -411,9 +410,9 @@ m1=0..1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>889</x>
-      <y>399</y>
-      <w>49</w>
+      <x>847</x>
+      <y>371</y>
+      <w>56</w>
       <h>154</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
@@ -423,8 +422,8 @@ Author</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>714</x>
-      <y>399</y>
+      <x>672</x>
+      <y>371</y>
       <w>21</w>
       <h>56</h>
     </coordinates>
@@ -434,8 +433,8 @@ Author</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>301</x>
-      <y>217</y>
+      <x>259</x>
+      <y>189</y>
       <w>77</w>
       <h>217</h>
     </coordinates>
@@ -445,8 +444,8 @@ Author</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>364</x>
-      <y>28</y>
+      <x>322</x>
+      <y>0</y>
       <w>238</w>
       <h>126</h>
     </coordinates>
@@ -466,8 +465,8 @@ Author</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>315</x>
-      <y>189</y>
+      <x>273</x>
+      <y>161</y>
       <w>63</w>
       <h>28</h>
     </coordinates>
@@ -478,8 +477,8 @@ m1=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>315</x>
-      <y>63</y>
+      <x>273</x>
+      <y>35</y>
       <w>63</w>
       <h>28</h>
     </coordinates>
@@ -490,8 +489,8 @@ m1=1</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>371</x>
-      <y>560</y>
+      <x>329</x>
+      <y>532</y>
       <w>140</w>
       <h>77</h>
     </coordinates>
@@ -505,8 +504,8 @@ m1=1</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>364</x>
-      <y>161</y>
+      <x>322</x>
+      <y>133</y>
       <w>238</w>
       <h>112</h>
     </coordinates>
@@ -525,100 +524,106 @@ m1=1</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1057</x>
-      <y>364</y>
+      <x>1015</x>
+      <y>336</y>
       <w>245</w>
-      <h>105</h>
+      <h>140</h>
     </coordinates>
     <panel_attributes>/IssueState/
 -
-/+ add_comment(comment): bool/
-/+ add_worklog(time_spend, remaining): bool/
-/+ set_details(details): bool/
++ IssueState(issue)
++ change_state(new_state)
+/+ add_comment(comment, comment_list): bool/
+/+ add_worklog(time_spend, remaining,/
+/    worklog_list): bool/
+/+ set_details(details, issue_details): bool/
 /+ close_issue(info): bool/
-/+ change_assignee(new_assignee): bool/
-/+ reopen_issue(details): bool/
-+ change_state(new_state)</panel_attributes>
+/+ change_assignee(new_assignee,/
+/    current_asssignee): bool/
+/+ reopen_issue(details): bool/</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1106</x>
-      <y>462</y>
+      <x>1064</x>
+      <y>469</y>
       <w>21</w>
-      <h>77</h>
+      <h>49</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1246</x>
-      <y>525</y>
+      <x>1204</x>
+      <y>504</y>
       <w>231</w>
-      <h>91</h>
+      <h>112</h>
     </coordinates>
     <panel_attributes>InProgressIssueState
 -
-_+ get_instance(): IssueState_
-+ add_comment(comment): bool
-+ add_worklog(time_spend, remaining): bool
-+ set_details(details): bool
++ add_comment(comment,
+    comment_list): bool
++ add_worklog(time_spend, remaining.
+    worklog_list): bool
++ set_details(details, issue_details): bool
 + close_issue(info): bool
-+ change_assignee(new_assignee): bool</panel_attributes>
++ change_assignee(new_assignee,
+    current-assignee): bool</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1022</x>
-      <y>525</y>
+      <x>980</x>
+      <y>504</y>
       <w>210</w>
-      <h>91</h>
+      <h>112</h>
     </coordinates>
     <panel_attributes>ToBeAssignedIssueState
 -
-_+ get_instance(): IssueState_
-+ add_comment(comment): bool
-+ set_details(details): bool
++ add_comment(comment,
+    comment_list): bool
++ set_details(details, issue_details): bool
 + close_issue(info): bool
-+ change_assignee(new_assignee): bool
++ change_assignee(new_assignee,
+    current_assignee): bool
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1274</x>
-      <y>462</y>
+      <x>1232</x>
+      <y>469</y>
       <w>21</w>
-      <h>77</h>
+      <h>49</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1351</x>
-      <y>385</y>
+      <x>1309</x>
+      <y>357</y>
       <w>182</w>
-      <h>63</h>
+      <h>56</h>
     </coordinates>
     <panel_attributes>ClosedIssueState
 -
-_+ get_instance(): IssueState_
-+ add_comment(comment): bool
++ add_comment(comment,
+    comment_list): bool
 + reopen_issue(details): bool</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1295</x>
-      <y>413</y>
+      <x>1253</x>
+      <y>385</y>
       <w>70</w>
       <h>21</h>
     </coordinates>
@@ -628,12 +633,12 @@ _+ get_instance(): IssueState_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>595</x>
-      <y>427</y>
+      <x>553</x>
+      <y>399</y>
       <w>476</w>
       <h>21</h>
     </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
+    <panel_attributes>lt=-</panel_attributes>
     <additional_attributes>660.0;10.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>
