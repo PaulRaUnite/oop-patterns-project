@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.3.0">
   <help_text/>
-  <zoom_level>10</zoom_level>
+  <zoom_level>8</zoom_level>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>110</x>
+      <x>8</x>
       <y>0</y>
-      <w>100</w>
-      <h>30</h>
+      <w>80</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>_:User_</panel_attributes>
     <additional_attributes/>
@@ -16,10 +16,10 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>370</x>
+      <x>216</x>
       <y>0</y>
-      <w>100</w>
-      <h>30</h>
+      <w>80</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>_:System_</panel_attributes>
     <additional_attributes/>
@@ -27,10 +27,10 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>670</x>
+      <x>456</x>
       <y>0</y>
-      <w>100</w>
-      <h>30</h>
+      <w>80</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>_:Project_</panel_attributes>
     <additional_attributes/>
@@ -38,21 +38,21 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>810</x>
+      <x>672</x>
       <y>0</y>
-      <w>100</w>
-      <h>30</h>
+      <w>80</w>
+      <h>24</h>
     </coordinates>
-    <panel_attributes>_:Issue_</panel_attributes>
+    <panel_attributes>_:IssueState_</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>150</x>
-      <y>20</y>
-      <w>30</w>
-      <h>70</h>
+      <x>40</x>
+      <y>16</y>
+      <w>24</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
@@ -60,10 +60,10 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>150</x>
-      <y>70</y>
-      <w>20</w>
-      <h>830</h>
+      <x>40</x>
+      <y>56</y>
+      <w>16</w>
+      <h>664</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -71,10 +71,10 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>410</x>
-      <y>80</y>
-      <w>20</w>
-      <h>810</h>
+      <x>248</x>
+      <y>64</y>
+      <w>16</w>
+      <h>648</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -82,10 +82,10 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>560</x>
+      <x>368</x>
       <y>0</y>
-      <w>100</w>
-      <h>30</h>
+      <w>80</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>_:ProjectList_</panel_attributes>
     <additional_attributes/>
@@ -93,10 +93,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>410</x>
-      <y>20</y>
-      <w>30</w>
-      <h>80</h>
+      <x>248</x>
+      <y>16</y>
+      <w>24</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
@@ -104,10 +104,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
-      <y>60</y>
-      <w>270</w>
-      <h>60</h>
+      <x>48</x>
+      <y>48</y>
+      <w>216</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 change_assignee
@@ -118,10 +118,10 @@ new_assignee, new_assignee)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>420</x>
-      <y>70</y>
-      <w>200</w>
-      <h>50</h>
+      <x>256</x>
+      <y>56</y>
+      <w>160</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 project = 
@@ -131,10 +131,10 @@ get_project(project_id)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>600</x>
-      <y>90</y>
-      <w>20</w>
-      <h>40</h>
+      <x>400</x>
+      <y>72</y>
+      <w>16</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -142,10 +142,10 @@ get_project(project_id)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>420</x>
-      <y>150</y>
-      <w>310</w>
-      <h>40</h>
+      <x>256</x>
+      <y>120</y>
+      <w>248</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 issue = get_issue(id)</panel_attributes>
@@ -154,22 +154,22 @@ issue = get_issue(id)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>420</x>
-      <y>260</y>
-      <w>450</w>
-      <h>40</h>
+      <x>256</x>
+      <y>208</y>
+      <w>344</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 change_assignee(new)</panel_attributes>
-    <additional_attributes>430.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>410.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>710</x>
-      <y>170</y>
-      <w>20</w>
-      <h>60</h>
+      <x>488</x>
+      <y>136</y>
+      <w>16</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -177,10 +177,10 @@ change_assignee(new)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>850</x>
-      <y>280</y>
-      <w>20</w>
-      <h>590</h>
+      <x>704</x>
+      <y>240</y>
+      <w>16</w>
+      <h>456</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -188,10 +188,10 @@ change_assignee(new)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>600</x>
-      <y>20</y>
-      <w>30</w>
-      <h>90</h>
+      <x>400</x>
+      <y>16</y>
+      <w>24</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
@@ -199,34 +199,34 @@ change_assignee(new)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>860</x>
-      <y>300</y>
-      <w>210</w>
-      <h>80</h>
+      <x>712</x>
+      <y>240</y>
+      <w>192</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-old = this.assignee</panel_attributes>
+old = current_assignee</panel_attributes>
     <additional_attributes>10.0;60.0;60.0;60.0;60.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>860</x>
-      <y>380</y>
-      <w>220</w>
-      <h>80</h>
+      <x>712</x>
+      <y>304</y>
+      <w>200</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-this.assignee = new</panel_attributes>
+current_assignee = new</panel_attributes>
     <additional_attributes>10.0;60.0;60.0;60.0;60.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>590</x>
-      <y>610</y>
-      <w>620</w>
-      <h>230</h>
+      <x>392</x>
+      <y>488</y>
+      <w>496</w>
+      <h>184</h>
     </coordinates>
     <panel_attributes>foreach user in subscribers</panel_attributes>
     <additional_attributes/>
@@ -234,10 +234,10 @@ this.assignee = new</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>710</x>
-      <y>660</y>
-      <w>20</w>
-      <h>150</h>
+      <x>488</x>
+      <y>528</y>
+      <w>16</w>
+      <h>120</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -245,22 +245,22 @@ this.assignee = new</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>720</x>
-      <y>660</y>
-      <w>380</w>
-      <h>60</h>
+      <x>496</x>
+      <y>528</y>
+      <w>224</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 notify(user, notification)</panel_attributes>
-    <additional_attributes>10.0;40.0;190.0;40.0;190.0;10.0;150.0;10.0</additional_attributes>
+    <additional_attributes>10.0;20.0;260.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>720</x>
-      <y>740</y>
-      <w>400</w>
-      <h>40</h>
+      <x>496</x>
+      <y>592</y>
+      <w>320</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 add_notification(notification)</panel_attributes>
@@ -269,10 +269,10 @@ add_notification(notification)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1100</x>
-      <y>760</y>
-      <w>20</w>
-      <h>30</h>
+      <x>800</x>
+      <y>608</y>
+      <w>16</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -280,10 +280,10 @@ add_notification(notification)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1060</x>
-      <y>630</y>
-      <w>100</w>
-      <h>30</h>
+      <x>768</x>
+      <y>504</y>
+      <w>80</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>_:User_</panel_attributes>
     <additional_attributes/>
@@ -291,23 +291,23 @@ add_notification(notification)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>860</x>
-      <y>450</y>
-      <w>270</w>
-      <h>80</h>
+      <x>712</x>
+      <y>360</y>
+      <w>248</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 receivers = 
-this.get_subscribed_users()</panel_attributes>
+this.issue.get_subscribed_users()</panel_attributes>
     <additional_attributes>10.0;60.0;60.0;60.0;60.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>860</x>
-      <y>530</y>
-      <w>250</w>
-      <h>80</h>
+      <x>712</x>
+      <y>424</y>
+      <w>200</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 receivers += [old, new]</panel_attributes>
@@ -316,10 +316,10 @@ receivers += [old, new]</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>150</x>
-      <y>890</y>
-      <w>30</w>
-      <h>70</h>
+      <x>40</x>
+      <y>712</y>
+      <w>24</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
@@ -327,10 +327,10 @@ receivers += [old, new]</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>410</x>
-      <y>880</y>
-      <w>30</w>
-      <h>80</h>
+      <x>248</x>
+      <y>704</y>
+      <w>24</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
@@ -338,10 +338,10 @@ receivers += [old, new]</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>850</x>
-      <y>860</y>
-      <w>30</w>
-      <h>100</h>
+      <x>704</x>
+      <y>688</y>
+      <w>24</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
@@ -349,10 +349,10 @@ receivers += [old, new]</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1100</x>
-      <y>780</y>
-      <w>30</w>
-      <h>180</h>
+      <x>800</x>
+      <y>624</y>
+      <w>24</w>
+      <h>144</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;160.0</additional_attributes>
@@ -360,10 +360,10 @@ receivers += [old, new]</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1100</x>
-      <y>650</y>
-      <w>30</w>
-      <h>130</h>
+      <x>800</x>
+      <y>520</y>
+      <w>24</w>
+      <h>104</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;110.0</additional_attributes>
@@ -371,21 +371,21 @@ receivers += [old, new]</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>850</x>
-      <y>20</y>
-      <w>30</w>
-      <h>280</h>
+      <x>704</x>
+      <y>16</y>
+      <w>24</w>
+      <h>240</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;260.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;280.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>710</x>
-      <y>20</y>
-      <w>30</w>
-      <h>170</h>
+      <x>488</x>
+      <y>16</y>
+      <w>24</w>
+      <h>136</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;150.0</additional_attributes>
@@ -393,10 +393,10 @@ receivers += [old, new]</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>600</x>
-      <y>120</y>
-      <w>30</w>
-      <h>840</h>
+      <x>400</x>
+      <y>96</y>
+      <w>24</w>
+      <h>672</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;820.0</additional_attributes>
@@ -404,10 +404,10 @@ receivers += [old, new]</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>710</x>
-      <y>800</y>
-      <w>30</w>
-      <h>160</h>
+      <x>488</x>
+      <y>640</y>
+      <w>24</w>
+      <h>128</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;140.0</additional_attributes>
@@ -415,12 +415,83 @@ receivers += [old, new]</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>710</x>
-      <y>220</y>
-      <w>30</w>
-      <h>460</h>
+      <x>488</x>
+      <y>176</y>
+      <w>24</w>
+      <h>368</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;440.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>592</x>
+      <y>224</y>
+      <w>128</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+change_assignee
+(new,
+current_assignee)</panel_attributes>
+    <additional_attributes>140.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>584</x>
+      <y>16</y>
+      <w>24</w>
+      <h>224</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;260.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>552</x>
+      <y>0</y>
+      <w>80</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>_:Issue_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>584</x>
+      <y>224</y>
+      <w>16</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>584</x>
+      <y>264</y>
+      <w>24</w>
+      <h>504</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;610.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>744</x>
+      <y>176</y>
+      <w>144</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>InProgressIssueState
+or
+ToBeAssignedIssueState</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>
